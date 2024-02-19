@@ -170,6 +170,7 @@ header,
     justify-content: space-around;
     align-items: center;
     padding: 100px  0;
+    margin: 130px;
 
 }
 
@@ -200,3 +201,13 @@ header,
 #hot-deal .hot-deal-img{
     max-width: 318px;
 }
+
+/* own work 2 section 4 */
+.flower-four-img{
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+/* alhamd success */
