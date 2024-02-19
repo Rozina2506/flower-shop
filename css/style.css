@@ -56,7 +56,8 @@ button:hover {
 }
 
 /* header style */
-header {
+header,
+#hot-deal {
     background: rgba(229, 84, 115, 0.10);
 }
 
@@ -160,6 +161,42 @@ header {
     line-height: 35px;
     /* 145.833% */
 }
+
 /* alhamdulilah nijei 99% parsi  */
 
 /* 3no section or article start */
+.hot-deal-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px  0;
+
+}
+
+#hot-deal .hot-deal-text {
+    max-width: 550px;
+    width: 75%;
+    text-align: center;
+}
+
+
+#hot-deal .hot-deal-text *{
+    margin-bottom: 24px;
+
+}
+#hot-deal .hot-deal-text h2 {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+#hot-deal .hot-deal-text h2 .important {
+    color: #E55473;
+ 
+}
+
+#hot-deal .hot-deal-img{
+    max-width: 318px;
+}
