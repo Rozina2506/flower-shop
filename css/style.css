@@ -207,7 +207,33 @@ header,
     display: flex;
     gap: 24px;
     margin-top: 50px;
-    margin-bottom: 130px;
+    /* margin-bottom: 130px; */
 }
 
 /* alhamd success */
+
+/* section 5 start */
+#newsletter{
+    margin: 128px 0;
+
+}
+
+.newsletter-main{
+    background-image: url('../imgs/Rectangle\ 9.png');
+    padding: 122px 0;
+}
+#newsletter form{
+    max-width: 800px;
+    margin: 20 auto;
+    display: flex;
+    gap: 10px;
+}
+
+#newsletter form input{
+    flex-grow: 1;
+    border: none;
+    border-radius: 3px;
+    padding: 10px ;
+    font-size: 20px;
+    outline: none;
+}
