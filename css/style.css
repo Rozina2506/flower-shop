@@ -17,6 +17,27 @@ p {
     /* 166.667% */
 }
 
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.section-heading {
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.section-heading h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 16px;
+}
 
 /* btn  */
 button {
@@ -25,7 +46,13 @@ button {
     border: none;
     color: white;
     font-size: 20px;
-    padding:15px 28px;
+    padding: 15px 28px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+button:hover {
+    background-color: green;
 }
 
 /* header style */
@@ -33,11 +60,7 @@ header {
     background: rgba(229, 84, 115, 0.10);
 }
 
-.container {
-    width: 75%;
-    max-width: 1440px;
-    margin: 0 auto;
-}
+
 
 .banner {
     display: flex;
@@ -45,10 +68,11 @@ header {
     justify-content: space-between;
 }
 
-.banner .banner-text *{
+.banner .banner-text * {
     margin-bottom: 32px;
     max-width: 525px;
 }
+
 .banner .banner-text h1 {
     color: #272727;
     font-size: 60px;
@@ -58,7 +82,84 @@ header {
 }
 
 /* banner-img style */
-.banner .banner-img img{
-    width: 100%; 
+.banner .banner-img img {
+    width: 100%;
     vertical-align: middle;
 }
+
+
+/* setion1 featured style */
+#featured {
+    padding: 100px 0;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 20px;
+}
+
+.section-content .flower .flower-img {
+    border-radius: 300px 300px 0px 0px;
+    padding: 30px 15px 0;
+    height: 500px;
+    display: flex;
+    align-items: end;
+}
+
+.section-content .flower .flower-img img {
+    width: 100%;
+}
+
+.section-content .flower .pink {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.section-content .flower .blue {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.section-content .flower .green {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.section-content .flower p {
+    color: #272727;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    /* 145.833% */
+    text-decoration-line: underline;
+    margin-top: 16px;
+}
+
+/* section part 1 done alhamdulillah */
+
+/* 2no section start own work */
+.men {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+.support {
+    padding: 100px 100px;
+}
+
+.support p {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    /* 145.833% */
+}
+/* alhamdulilah nijei 99% parsi  */
+
+/* 3no section or article start */
